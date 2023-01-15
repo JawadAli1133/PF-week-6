@@ -12,7 +12,7 @@ main()
     cout << "Enter coordinates in y direction: ";
     cin >>y;
 
-    direction = Direction(coordX, coordY, length);
+    direction = Direction(x, y, length);
     if(direction == 1)
     {
         cout << "Inside";
@@ -23,7 +23,7 @@ main()
     }
     if(direction == 3)
     {
-        cout << "Border";
+        cout << "At Border";
     }
     
 }
